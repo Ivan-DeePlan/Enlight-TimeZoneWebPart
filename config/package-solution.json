@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "time-zone-web-part-client-side-solution",
+    "id": "52280321-b87b-4ff9-975f-f463f8f27802",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "time-zone-web-part description"
+      },
+      "longDescription": {
+        "default": "time-zone-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "time-zone-web-part Feature",
+        "description": "The feature that activates elements of the time-zone-web-part solution.",
+        "id": "ef6bea95-2f40-4bd5-ae76-2373943ecb28",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/time-zone-web-part.sppkg"
+  }
+}

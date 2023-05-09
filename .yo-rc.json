@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "time-zone-web-part",
+    "libraryId": "52280321-b87b-4ff9-975f-f463f8f27802",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "time-zone-web-part",
+    "solutionShortDescription": "time-zone-web-part description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,60 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+/* Main */
+.TimeZoneContainer {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: inherit;
+  font-size: 10px;
+}
+.TimeZoneContainer .MainTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TimeZoneContainer .DayImage {
+  background-image: url("../assets/day.png");
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+.TimeZoneContainer .NightImage {
+  background-image: url("../assets/night.png");
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+.TextOver {
+  color: #fff;
+  height: 90px;
+  padding: 2%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.TextOver .HoursText {
+  display: grid;
+  grid-template-columns: 80px 40px auto;
+}
+.TextOver .Hours {
+  font-size: 30px;
+  margin-top: 5px;
+  font-weight: 100;
+}
+.TextOver .AmPmText {
+  margin-top: 50%;
+  font-weight: 100;
+}
+.TextOver .DateText {
+  text-align: end;
+  font-size: 13px;
+  font-weight: 100;
+}
